@@ -1,0 +1,40 @@
+:root {
+      --black1: #000000;
+      --black2: #454545;
+      --white1: #ffffff;
+      --white2: #cacaca;
+
+      /* font size */
+      --fontSize1: 11px;
+      --fontSize2: 13px;
+      --fontSize3: 16px;
+      --fontSize4: 19px;
+}
+
+
+body {
+      background-color: var(--white1);
+      color: var(--black1);
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+* {
+      transition: 0.1s ease-in-out;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+      font-size: large;
+}
+
+::-webkit-scrollbar {
+      width: 6px;
+      height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+      background-color: var(--gray);
+}
+
+::-webkit-scrollbar-track {
+      background-color: transparent;
+}
