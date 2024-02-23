@@ -23,7 +23,7 @@ body {
       margin: 0;
       padding: 0;
       scroll-behavior: smooth;
-      font-size: large;
+      font-size: var(--fontSize3);
 }
 
 ::-webkit-scrollbar {
